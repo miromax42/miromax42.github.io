@@ -28,8 +28,7 @@ socialLinks:
   url: "https://github.com/miromax42"
 - name: Telegram
   icon: fab fa-telegram
-- name: Whatsapp
-  icon: fab fa-whatsapp
+  url: "https://t.me/doejon"
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
