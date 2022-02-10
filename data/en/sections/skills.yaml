@@ -22,61 +22,61 @@ skills:
   url: "https://www.python.org/"  
 
 - name: Kotlin
-  logo: images\sections\skills\Kotlin_Icon.png
+  logo: images/sections/skills/Kotlin_Icon.png
   summary: "Using as the language for hobby development. Capable of writing scalable, testable, and maintainable program."
   url: "https://kotlinlang.org/"
 
 - name: Unity
-  logo: images\sections\skills\unity-icon-5.jpg
+  logo: images/sections/skills/unity-icon-5.jpg
   summary: "Using as the language for hobby development. Capable of writing scalable, testable, and maintainable program."
   url: "https://unity.com/"
 
 - name: Machine Learning
-  logo: images\sections\skills\ml3.png
+  logo: images/sections/skills/ml3.png
   summary: "Using as the language for hobby development. Capable of writing scalable, testable, and maintainable program."
 
 - name: ELK Stack
-  logo: images\sections\skills\elastic.svg
+  logo: images/sections/skills/elastic.svg
   summary: "Using as the language for hobby development. Capable of writing scalable, testable, and maintainable program."
   url: "https://unity.com/"
 
 - name: Docker
-  logo: images\sections\skills\docker.png
+  logo: images/sections/skills/docker.png
   summary: "Using as the language for hobby development. Capable of writing scalable, testable, and maintainable program."
   url: "https://unity.com/"
 
 - name: Git
-  logo: images\sections\skills\git.png
+  logo: images/sections/skills/git.png
   summary: "Using as the language for hobby development. Capable of writing scalable, testable, and maintainable program."
   url: "https://unity.com/"
 
 - name: CI/CD
-  logo: images\sections\skills\cicd.png
+  logo: images/sections/skills/cicd.png
   summary: "Using as the language for hobby development. Capable of writing scalable, testable, and maintainable program."
   url: "https://unity.com/"
 
 - name: Jira
-  logo: images\sections\skills\Jira.png
+  logo: images/sections/skills/Jira.png
   summary: "Using as the language for hobby development. Capable of writing scalable, testable, and maintainable program."
   url: "https://unity.com/"
 
 - name: OSI/ISO
-  logo: images\sections\skills\osi.png
+  logo: images/sections/skills/osi.png
   summary: "Using as the language for hobby development. Capable of writing scalable, testable, and maintainable program."
   url: "https://unity.com/"
 
 - name: Wireshark
-  logo: images\sections\skills\wireshark.png
+  logo: images/sections/skills/wireshark.png
   summary: "Using as the language for hobby development. Capable of writing scalable, testable, and maintainable program."
   url: "https://unity.com/"
 
 - name: Snort
-  logo: images\sections\skills\pig.png
+  logo: images/sections/skills/pig.png
   summary: "Using as the language for hobby development. Capable of writing scalable, testable, and maintainable program."
   url: "https://unity.com/"
 
 - name: FPGA
-  logo: images\sections\skills\fpga.png
+  logo: images/sections/skills/fpga.png
   summary: "Using as the language for hobby development. Capable of writing scalable, testable, and maintainable program."
   url: "https://unity.com/"
 
