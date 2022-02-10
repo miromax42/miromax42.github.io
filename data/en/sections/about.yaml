@@ -1,0 +1,45 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Software Engineer
+# your company information
+company:
+  name: NCCCI
+  url: "https://cert.gov.ru/index.html"
+
+# your resume. this file path should be relative to you "static" directory
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am a passionate software engineer with 1.5 years of working experience. I develop tools for Computer Attack Detection System using GO. My tools help companies to defend their data and analyze their vulnerabilities. Sometimes, I work on some fun projects such as developing android application, neural networks etc.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/miromax42"
+- name: Telegram
+  icon: fab fa-telegram
+- name: Whatsapp
+  icon: fab fa-whatsapp
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Team Work
+  percentage: 85
+  color: yellow
+- name: Multitasking
+  percentage: 90
+  color: blue
+- name: Organized
+  percentage: 80
+  color: green

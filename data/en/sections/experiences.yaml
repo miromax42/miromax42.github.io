@@ -1,0 +1,42 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: NCCCI
+    url: "https://cert.gov.ru/index.html"
+    location: Moscow
+    # company overview
+    overview: International Computer Incident Response Company.
+  positions:
+  - designation: Software Engineer
+    start: June 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Contributing to the development of Intrusion Detection System.
+    - Lead certification of commercial products.
+    - Code Review of other team members.
+    - Support and development of TheHive platform.
+
+- company:
+    name: Institute of Cryptography, Telecommunications and Computer Science
+    url: "http://academy.fsb.ru/"
+    location: Moscow
+    overview: research institute within the Academy of the Federal Security Service of Russia, which trains specialists in areas such as the transfer, protection and processing of information.
+  positions:
+  - designation: Student
+    start: June 2016
+    end: June 2021
+    responsibilities:
+    - Learning Modern Software and Hardware.
+    - Writing articles.

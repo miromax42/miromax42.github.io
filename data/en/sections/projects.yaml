@@ -1,0 +1,48 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Hivehook
+  logo: /images/sections/projects/webhook.png
+  role: Developer
+  timeline: "October 2021 - Present"
+  # repo: https://github.com/hossainemruz/toha
+  summary: Distributed System for Reliable Event Handling
+  tags: ["golang","hive","nats","professional"]
+  
+- name: Neflow analyzer for IDS
+  logo: /images/sections/projects/fingerprint.png
+  role: Developer
+  timeline: "September 2020 - May 2021"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  # url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: IDS for detecting attacks by non-signature method
+  tags: ["academic", "ml", "python","hobby"]
+
+- name: Finger speed test
+  logo: /images/sections/projects/tap.png
+  role: Owner
+  timeline: "October 2020 - Present"
+  # repo: https://github.com/tensorflow/tensorflow
+  url: https://play.google.com/store/apps/details?id=com.R3Z4.FingerSpeedTest
+  summary: Popular Anroid game
+  tags: ["hobby", "android","kotlin","unity"]
