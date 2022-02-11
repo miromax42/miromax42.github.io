@@ -7,10 +7,10 @@ image: images/man.png
 # # give your some contact information. they will be used in the footer
 contactInfo:
   email: "miromaxxs@gmail.com"
-  tlg: "@doejon"
+  telegram: "@doejon"
 
 # some summary about what you do
 summary:
-  - Я разбаботчик
+  - Я разработчик
   - Я работаю над Системой Обнаружения Вторжений
   - Мне нравиться Golang
