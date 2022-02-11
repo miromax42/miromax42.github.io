@@ -28,8 +28,6 @@ enableEmoji: true
 
 # Site parameters
 params:
-
-
   # GitHub repo of your site
   gitRepo: https://github.com/miromax42/miromax42.github.io
   # Default branch of your Git repo
@@ -43,8 +41,11 @@ params:
 
   # Provide newsletter configuration. This feature hasn't been implemented yet.
   # Currently, you can just hide it from the footer.
-  newsletter:
-    enable: false
+  # newsletter:
+  #   enable: true
+  #   provider: mailchimp
+  #   mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
+  
 
   background: "images/wallpaper.jpg"
 
@@ -52,3 +53,10 @@ params:
     main: images/man.png
     inverted: images/user.png
     favicon: images/hands-up.png
+
+  footer:
+    enable: true
+  newsletter:
+    enable: false
+    # disclaimer:
+    #   enable: true
