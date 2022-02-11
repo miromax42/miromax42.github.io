@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Projects
+  name: Проекты
   id: projects
   enable: true
   weight: 4
@@ -10,39 +10,87 @@ section:
 
 # filter buttons
 buttons:
-- name: All
+- name: Все
   filter: "all"
-- name: Professional
-  filter: "professional"
-- name: Academic
+- name: С работы
+  filter: "job"
+- name: Академические
   filter: "academic"
-- name: Hobby
+- name: Хобби
   filter: "hobby"
 
 # your projects
 projects:
 - name: Hivehook
-  logo: /images/sections/projects/webhook.png
-  role: Developer
-  timeline: "October 2021 - Present"
+  logo: /images/sections/projects/bee-hive.png
+  role: Разработчик
+  timeline: "Октябрь 2021 - н.в."
   # repo: https://github.com/hossainemruz/toha
-  summary: Distributed System for reliable event handling and integration with The Hive platform
-  tags: ["golang","hive","nats","professional"]
+  summary: Распределенная система обмена событиями интегрированная с платформой The Hive 
+  tags: ["golang","hive","nats","job"]
+
+- name: Модули HiveHook
+  logo: /images/sections/projects/cube.png
+  role: Разработчик
+  timeline: "Ноябрь 2021 - н.в."
+  # repo: https://github.com/miromax42/dotters
+  # url: https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%B9%D0%BD%D0%B0_%D0%B2%D0%B8%D1%80%D1%83%D1%81%D0%BE%D0%B2
+  summary: Модули для взаимодействия платформы The Hive с другими системами, такими как MISP, Elasticsearch и т.д.
+  tags: ["golang","hive","nats","job", "misp"]
   
-- name: Neflow analyzer for IDS
+- name: Анализатор Neflow для IDS
   logo: /images/sections/projects/fingerprint.png
   role: Developer
-  timeline: "September 2020 - May 2021"
+  timeline: "Сентябрь 2020 - Май 2021"
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   # url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Component for IDS for detecting attacks by non-signature method
-  tags: ["academic", "ml", "python","hobby"]
+  summary: Компонент для IDS для детектирования атак несигнатурным методом
+  tags: ["academic", "ml", "python","job"]
 
 - name: Finger speed test
   logo: /images/sections/projects/tap.png
-  role: Owner
-  timeline: "October 2020 - Present"
+  role: Владелец
+  timeline: "Октябрь 2020 - н.в."
   # repo: https://github.com/tensorflow/tensorflow
   url: https://play.google.com/store/apps/details?id=com.R3Z4.FingerSpeedTest
-  summary: Popular Anroid game with over 20.000 downloads
-  tags: ["hobby", "android","kotlin","unity"]
+  summary: Популярная игра на Android с более чем 20.000 установок
+  tags: ["hobby", "android","C#","unity"]
+
+- name: Medical testing
+  logo: /images/sections/projects/cardiogram.png
+  role: Разработчик
+  timeline: "Сентябрь 2021 - Октябрь 2021"
+  repo: https://github.com/miromax42/scienceTesting
+  # url: https://play.google.com/store/apps/details?id=com.R3Z4.FingerSpeedTest
+  summary: Прототип приложения для медицинской диагности с учетом аппаратных задержек устройства.
+  tags: ["hobby", "android","kotlin"]
+
+- name: Dotters
+  logo: /images/sections/projects/metrize.png
+  role: Разработчик
+  timeline: "Январь 2021 - Май 2021"
+  repo: https://github.com/miromax42/dotters
+  url: https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%B9%D0%BD%D0%B0_%D0%B2%D0%B8%D1%80%D1%83%D1%81%D0%BE%D0%B2
+  summary: Прототип приложения для реализации игры "Война Вирусов".
+  tags: ["hobby", "android","kotlin", "design"]
+
+- name: Система учета сотрудников  
+  logo: /images/sections/projects/database.png
+  role: Разработчик
+  timeline: "Апрель 2018 - Май 2018"
+  # repo: https://github.com/miromax42/dotters
+  # url: https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%B9%D0%BD%D0%B0_%D0%B2%D0%B8%D1%80%D1%83%D1%81%D0%BE%D0%B2
+  summary: "Проектная работа по реализации базы данных и приложения для доступа к ней."
+  tags: ["academic", "desktop","c#"]
+
+- name: Опредение модуляции  
+  logo: /images/sections/projects/sine.png
+  role: Разработчик
+  timeline: "Январь 2019 - Март 2019"
+  # repo: https://github.com/miromax42/dotters
+  # url: https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%B9%D0%BD%D0%B0_%D0%B2%D0%B8%D1%80%D1%83%D1%81%D0%BE%D0%B2
+  summary: "Проектная работа по реализации определения модуляционных параметров сигнала с помощью каскада нейросетей."
+  tags: ["academic", "ml", "python"]
+
+
+

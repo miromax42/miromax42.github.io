@@ -18,7 +18,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'С высоким средним балом окончил Институт Криптографии Связи и Информатики. Изучать программирование начал с Java, позже перешёл на Python (ML), C# (Unity), Kotlin (Android), Golang. На последнем языке разрабатываю больше полугода. На работе в основном использую Golang для разработки, а также Python.'
+summary: 'Я влюбленный в свое дело программист. За жизненный путь успел попробывать себя во многих IT-проявлениях, всегда открыт к новым знания и умениям. Изучать программирование начал с Java, позже перешёл на Python (ML), C# (Unity), Kotlin (Android), Golang. На последнем языке разрабатываю больше полугода. На работе в основном использую Golang для разработки, а также Python.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -39,7 +39,7 @@ softSkills:
 - name: Много задачность
   percentage: 70
   color: sky
-- name: Организован
+- name: Пунктуален
   percentage: 60
   color: green
 - name: Креатив

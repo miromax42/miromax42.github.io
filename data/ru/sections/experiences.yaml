@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Experiences
+  name: Опыт
   id: experiences
   enable: true
   weight: 3
@@ -11,33 +11,33 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: NCCCI
+    name: НКЦКИ
     url: "https://cert.gov.ru/index.html"
-    location: Moscow
+    location: Москва
     # company overview
-    overview: International Computer Incident Response Company.
+    overview: Национальный координационный центр по компьютерным инцидентам (НКЦКИ) является составной частью сил, предназначенных для обнаружения, предупреждения и ликвидации последствий компьютерных атак и реагирования на компьютерные инциденты .
   positions:
-  - designation: Software Engineer
-    start: June 2021
+  - designation: Разработчик ПО
+    start: Июнь 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: н.в.
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Contributing to the development of Intrusion Detection System.
-    - Lead certification of commercial products.
-    - Code Review of other team members.
-    - Support and development of TheHive platform.
-    - Lots of paperwork 😞 
+    - Участвую в разработке СОА (Средство обнаружения атак).
+    - Веду сертификации коммерческих продуктов (KICS).
+    - Code Review других членов команды.
+    - Поддержка и развитие платформы TheHive.
+    - Много бумажной работы 😞 
 
 - company:
-    name: Institute of Cryptography, Telecommunications and Computer Science
+    name: Институт криптографии связи и информатики
     url: "http://academy.fsb.ru/"
     location: Moscow
-    overview: research institute within the Academy of the Federal Security Service of Russia, which trains specialists in areas such as the transfer, protection and processing of information.
+    overview: Структурное подразделение Академии ФСБ России, ведущее подготовку специалистов в области передачи, защиты и обработки информации. ИКСИ является головным учебным заведением России по образованию в области информационной безопасности.
   positions:
-  - designation: Student
-    start: June 2016
-    end: June 2021
+  - designation: Студент
+    start: Июнь 2016
+    end: Июнь 2021
     responsibilities:
-    - Learning Modern Software and Hardware.
-    - Writing articles.
+    - Изучение современного програмного обеспечения и внутреннего устройства вычислительных систем.
+    - Написание статей.

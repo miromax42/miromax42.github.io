@@ -1,5 +1,5 @@
 baseURL: https://miromax42.github.io
-languageCode: en-us
+languageCode: ru-ru
 title: Miroshnichenko Maxim
 
 theme: "toha"
@@ -8,13 +8,13 @@ googlefonts : "fonts.googleapis.com/css?family=Itim|Limelight"
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
-  en:
-    languageName: English
-    weight: 1
   ru:
     languageName: Русский
+    weight: 1
+  en:
+    languageName: English
     weight: 2
-
+defaultContentLanguage: ru
 # Control TOC depth
 markup:
   tableOfContents:

@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Skills
+  name: Навыки
   id: skills
   enable: true
   weight: 2
@@ -13,22 +13,22 @@ section:
 skills:
 - name: Golang
   logo: "/images/sections/skills/golang.png"
-  summary: "Основной язык программирования"
+  summary: "Основной язык программирования. Умею писать тестируемый, чистый и поддерживамый код."
   url: "https://golang.org/"
 
 - name: Python
   logo: "/images/sections/skills/python.png"
-  summary: "Вспомогательный язык программирования"
+  summary: "Вспомогательный язык программирования. В основном использую данный язык для решения задач в сфере Машинного обучения и прототипирования."
   url: "https://www.python.org/"  
 
 - name: Kotlin
   logo: images/sections/skills/Kotlin_Icon.png
-  summary: "Язык для хобби проектов"
+  summary: "Язык для хобби проектов. Использую его для написания Android приложений."
   url: "https://kotlinlang.org/"
 
 - name: Unity
   logo: images/sections/skills/unity-icon-5.jpg
-  summary: "Увенно владею игровым движком"
+  summary: "Увенно владею игровым движком и предлагаемыми им инструментами. В качестве языка использую C#."
   url: "https://unity.com/"
 
 - name: Машинное обучение
@@ -42,47 +42,47 @@ skills:
 
 - name: Docker
   logo: images/sections/skills/docker.png
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  summary: "Хорошо знаком с Docker. Активно использую его в работе. Умею созадвать multi-stage и multi-arch контейнеры."
   url: "https://www.docker.com/"
 
 - name: Git
   logo: images/sections/skills/git.png
-  summary: "Confident use of git. Applying it for professional(GitLab) and hobby(GitHub) projects."
+  summary: "Уверенное использование git. Применяю его для проффесиональной(GitLab) и хобби(GitHub) разработки."
   url: "https://git-scm.com/"
 
 - name: CI/CD
   logo: images/sections/skills/cicd.png
-  summary: "Able to automate aplication testing, linting, building and deployment."
+  summary: "Способен автоматизировать процесс тестирования, интеграции и разревертывания."
   url: "https://en.wikipedia.org/wiki/CI/CD"
 
 - name: Jira
   logo: images/sections/skills/Jira.png
-  summary: "Using Jira for issue tracking and project management in proffesional development."
+  summary: "Хорошо знаком с работой в Jira."
   url: "https://www.atlassian.com/"
 
 - name: OSI/ISO
   logo: images/sections/skills/osi.png
-  summary: "Deeply aware of the modern communication protocols due to university education."
+  summary: "Глубоко осведомлен о принципах работы сети и сетевых протоколах благодаря образованию в университете."
   url: "https://en.wikipedia.org/wiki/OSI_model"
 
 - name: Wireshark
   logo: images/sections/skills/wireshark.png
-  summary: "Able to work with raw network traffic and analize it."
+  summary: "Способен работать с сырым сетевым траффиком и анализировать его."
   url: "https://www.wireshark.org/"
 
 - name: Snort
   logo: images/sections/skills/pig.png
-  summary: "Able to create new snort rules and fix existing."
+  summary: "Умею создавать и изменять с правила Snort."
   url: "https://www.snort.org/"
 
-- name: FPGA
+- name: ПЛИС
   logo: images/sections/skills/fpga.png
-  summary: "Deeply aware of the hardware design due to university education. Have expirience in FPGA development with VHDL and Quartus."
+  summary: "Хорошо знаю аппаратную часть современных вычислительных систем. Имею опыт разработке на ПЛИС с использованием языка VHDL."
   url: "https://www.intel.ru/content/www/ru/ru/products/programmable.html"
 
-- name: Artwork
+- name: Дизайн
   logo: images/sections/skills/paint-palette.png
-  summary: "Able create icons,animations and simple artworks using illustrator, photoshop and after effects."
+  summary: "Способен создавать иконки, анимации и простые работы используя illustrator, photoshop и after effects."
   url: "https://github.com/miromax42/gophers"
 
 
