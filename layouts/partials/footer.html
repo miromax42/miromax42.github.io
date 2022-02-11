@@ -66,9 +66,9 @@
 
   <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
     <div class="container pt-5">
-      <div class="row text-left">
+      <div class="row text-left d-flex justify-content-between">
         {{ if $navigationEnabled }}
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12 text-left">
           <h5>{{ i18n "navigation" }}</h5>
           {{ if $sections }}
           <ul>
@@ -97,13 +97,13 @@
         </div>
         {{ end }}
         {{ if (and $contactMeEnabled $author) }}
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12 text-right">
           <h5>{{ i18n "contact_me" }}</h5>
           <ul>
             {{ range $key,$value:= $author.contactInfo }}
               {{ if (eq $key "email") }}
                 <li><a href={{ printf "mailto:%s" $value }} target="_blank" rel="noopener">
-                  <span><i class="fas fa-envelope"></i></span> <span> {{ $value }}</span>
+                  </span> <span> {{ $value }}</span> <span><i class="fas fa-envelope"></i>
                 </a></li>
               {{ else if (eq $key "phone") }}
                 <li><span><i class="fas fa-phone-alt"></i></span> <span>{{ $value }}</span></li>
@@ -113,11 +113,11 @@
                 </a></li>
               {{ else if (eq $key "telegram") }}
                 <li><a href={{ printf "https://t.me/%s" $value }} target="_blank" rel="noopener">
-                  <span><i class="fab fa-telegram"></i></span> <span> {{ $value }}</span>
+                  <span> {{ $value }}</span> <span><i class="fab fa-telegram"></i></span>
                 </a></li>
               {{ else if (eq $key "github") }}
                 <li><a href={{ printf "https://github.com/%s" $value }} target="_blank" rel="noopener">
-                  <span><i class="fab fa-github"></i></span> <span>{{ $value }}</span>
+                  <span>{{ $value }}</span> <span><i class="fab fa-github"></i></span>
                 </a></li>
               {{ else }}
                 <li><span>{{ title $key }}: </span> <span>{{ $value }}</span></li>
