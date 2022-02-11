@@ -40,7 +40,7 @@ projects:
   
 - name: Анализатор Neflow для IDS
   logo: /images/sections/projects/fingerprint.png
-  role: Developer
+  role: Владелец
   timeline: "Сентябрь 2020 - Май 2021"
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   # url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
@@ -67,7 +67,7 @@ projects:
 
 - name: Dotters
   logo: /images/sections/projects/metrize.png
-  role: Разработчик
+  role: Владелец
   timeline: "Январь 2021 - Май 2021"
   repo: https://github.com/miromax42/dotters
   url: https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%B9%D0%BD%D0%B0_%D0%B2%D0%B8%D1%80%D1%83%D1%81%D0%BE%D0%B2
@@ -76,7 +76,7 @@ projects:
 
 - name: Система учета сотрудников  
   logo: /images/sections/projects/database.png
-  role: Разработчик
+  role: Владелец
   timeline: "Апрель 2018 - Май 2018"
   # repo: https://github.com/miromax42/dotters
   # url: https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%B9%D0%BD%D0%B0_%D0%B2%D0%B8%D1%80%D1%83%D1%81%D0%BE%D0%B2
@@ -85,7 +85,7 @@ projects:
 
 - name: Опредение модуляции  
   logo: /images/sections/projects/sine.png
-  role: Разработчик
+  role: Владелец
   timeline: "Январь 2019 - Март 2019"
   # repo: https://github.com/miromax42/dotters
   # url: https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%B9%D0%BD%D0%B0_%D0%B2%D0%B8%D1%80%D1%83%D1%81%D0%BE%D0%B2
