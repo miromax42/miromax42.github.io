@@ -12,12 +12,12 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
 - name: Golang
-  logo: "/images/sections/skills/golang.png"
+  logo: images/sections/skills/golang.png
   summary: "Основной язык программирования. Умею писать тестируемый, чистый и поддерживамый код."
   url: "https://golang.org/"
 
 - name: Python
-  logo: "/images/sections/skills/python.png"
+  logo: images/sections/skills/python.png
   summary: "Вспомогательный язык программирования. В основном использую данный язык для решения задач в сфере Машинного обучения и прототипирования."
   url: "https://www.python.org/"  
 
