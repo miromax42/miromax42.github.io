@@ -56,7 +56,7 @@ skills:
   url: "https://en.wikipedia.org/wiki/CI/CD"
 
 - name: Jira
-  logo: images/sections/skills/good-jira.png
+  # logo: images/sections/skills/baddd-jira.png
   summary: "Хорошо знаком с работой в Jira."
   url: "https://www.atlassian.com/"
 
