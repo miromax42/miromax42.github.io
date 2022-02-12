@@ -5,7 +5,7 @@
           {{ if .logo }}
             {{ $logoImage := resources.Get .logo }}
             {{/*  svg don't support "Fit" operation   */}}
-            {{if $logoImage.MediaType.SubType}}
+            {{if eq $logoImage.MediaType.SubType nil}}
             {{ if ne $logoImage.MediaType.SubType "svg" }}
               {{ $logoImage = $logoImage.Fit "24x24" }}
             {{ end }}
