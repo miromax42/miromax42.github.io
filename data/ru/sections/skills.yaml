@@ -55,10 +55,10 @@ skills:
   summary: "Способен автоматизировать процесс тестирования, интеграции и разревертывания."
   url: "https://en.wikipedia.org/wiki/CI/CD"
 
-# - name: Jira
-#   # logo: images/sections/skills/baddd-jira.png
-#   summary: "Хорошо знаком с работой в Jira."
-#   url: "https://www.atlassian.com/"
+- name: Jira
+  logo: images/sections/skills/jira.png
+  summary: "Хорошо знаком с работой в Jira."
+  url: "https://www.atlassian.com/"
 
 - name: OSI/ISO
   logo: images/sections/skills/layers.png

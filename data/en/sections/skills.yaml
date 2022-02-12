@@ -32,7 +32,7 @@ skills:
   url: "https://unity.com/"
 
 - name: Machine Learning
-  logo: images/sections/skills/ml3.png
+  logo: images/sections/skills/neural.png
   summary: "Good knowledge of the theoretical foundations of machine learning algorithms. Repeatedly applied this knowledge to solve problems."
 
 - name: ELK Stack
@@ -51,22 +51,22 @@ skills:
   url: "https://git-scm.com/"
 
 - name: CI/CD
-  logo: images/sections/skills/cicd.png
+  logo: images/sections/skills/proactive.png
   summary: "Able to automate aplication testing, linting, building and deployment."
   url: "https://en.wikipedia.org/wiki/CI/CD"
 
 - name: Jira
-  logo: images/sections/skills/Jira.png
+  logo: images/sections/skills/jira.png
   summary: "Using Jira for issue tracking and project management in proffesional development."
   url: "https://www.atlassian.com/"
 
 - name: OSI/ISO
-  logo: images/sections/skills/osi.png
+  logo: images/sections/skills/layers.png
   summary: "Deeply aware of the modern communication protocols due to university education."
   url: "https://en.wikipedia.org/wiki/OSI_model"
 
 - name: Wireshark
-  logo: images/sections/skills/wireshark.png
+  logo: images/sections/skills/shark.png
   summary: "Able to work with raw network traffic and analize it."
   url: "https://www.wireshark.org/"
 
@@ -76,7 +76,7 @@ skills:
   url: "https://www.snort.org/"
 
 - name: FPGA
-  logo: images/sections/skills/fpga.png
+  logo: images/sections/skills/chip.png
   summary: "Deeply aware of the hardware design due to university education. Have expirience in FPGA development with VHDL and Quartus."
   url: "https://www.intel.ru/content/www/ru/ru/products/programmable.html"
 
