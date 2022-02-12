@@ -39,7 +39,7 @@ degrees:
     outOf: 5
   publications: #(optional)
   - title: Обнаружения компьтерных атак несигнатурным методом на основании Netflow статистики
-    urlLocal: "files/diplom.pptx"
+    urlLocal: files/diplom.pptx
   - title: Классификация сигналов с помощью нейронных сетей
     # urlLocal: files/ml-signals.pptx
   - title: Нейросетевой акустический классификатор клавиш устройств ввода
