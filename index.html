@@ -49,13 +49,19 @@ Miroshnichenko Maxim</a>
 <a class=nav-link href=#about>Обо мне</a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=#skills>Навыки</a>
-</li>
-<li class=nav-item>
 <a class=nav-link href=#experiences>Опыт</a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=#projects>Проекты</a>
+<a class=nav-link href=#education>Образование</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=#skills>Навыки</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>Более</a>
+<div class=dropdown-menu aria-labelledby=navbarDropdown>
+<a class=dropdown-item href=#projects>Проекты</a>
+</div>
 </li>
 <li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle" href=# id=languageSelector role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>
@@ -129,6 +135,99 @@ English
 </div>
 </div>
 <div class="container-fluid section-holder d-flex bg-dimmed">
+<div class="container-fluid anchor pb-5 experiences-section">
+<h1 class=text-center>
+<span id=experiences></span>Опыт</h1>
+<div class="container timeline text-justify">
+<div class="row align-items-center d-flex">
+<div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+<div class="circle font-weight-bold">1</div>
+</div>
+<div class="col-10 col-lg-8">
+<div class=experience-entry-heading>
+<h5><a href=https://cert.gov.ru/index.html title=НКЦКИ target=_blank rel=noopener>НКЦКИ</a></h5>
+<p class=text-muted>
+Январь 2021 - н.в.,
+Москва
+</p>
+<p>Национальный координационный центр по компьютерным инцидентам (НКЦКИ) является составной частью сил, предназначенных для обнаружения, предупреждения и ликвидации последствий компьютерных атак и реагирования на компьютерные инциденты .</p>
+</div>
+<div class=positions>
+<h6 class=designation>Специалист</h6>
+<p class=text-muted>Июнь 2021 - н.в. </p>
+<ul class=justify-content-around>
+<li>Разработка и поддержка Средства обнаружения вторжений</li>
+<li>Ведение сертификации коммерческих продуктов</li>
+<li>Code Review других членов команды</li>
+<li>Много бумажной работы 😞</li>
+</ul>
+<h6 class=text-muted>
+Достижения:
+</h6>
+<ul class=justify-content-around>
+<li>Распределенная система обмена событиями для платформы The Hive.</li>
+<li>Внедренние NATS в инфраструктуру</li>
+</ul>
+<h6 class=designation>Младший специалист</h6>
+<p class=text-muted>Январь 2021 - Июнь 2021 </p>
+<ul class=justify-content-around>
+<li>Разработка компонента для Средства обнаружения вторжений</li>
+</ul>
+<h6 class=text-muted>
+Достижения:
+</h6>
+<ul class=justify-content-around>
+<li>Несигнатурный метод обнаружения компьтерныx атак на основе анализа Netflow статистики</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container-fluid section-holder d-flex bg-white">
+<div class="container-fluid anchor pb-5 education-section">
+<h1 class=text-center>
+<span id=education></span>Образование</h1>
+<div class=container>
+<table class=education-info-table>
+<tbody>
+<tr>
+<td class=icon>
+<div class=icon-holder>
+<i class="fas fa-graduation-cap"></i>
+</div>
+</td>
+<td class=line>
+<div></div>
+</td>
+<td class=details>
+<div class="degree-info card">
+<div class=row>
+<div class="col-lg-10 col-md-8">
+<h5><a href=http://academy.fsb.ru/ title="Институт криптографии связи и информатики" target=_blank rel=noopener>Институт криптографии связи и информатики</a></h5>
+</div>
+<div class="timeframe col-lg-2 col-md-4">2016-2021</div>
+</div>
+<h6>Информационная безопастность телекоммуникационных систем</h6>
+<h6><span class=text-muted>Средний балл: </span><span>4.6</span> из <span>5</span></h6>
+<div class=publications>
+<h6 class=text-muted>Публикации</h6>
+<ul>
+<li><a href=/files/diplom.pptx title="Обнаружения компьтерных атак несигнатурным методом на основании Netflow статистики" target=#>Обнаружения компьтерных атак несигнатурным методом на основании Netflow статистики</a></li>
+<li>Классификация сигналов с помощью нейронных сетей</li>
+<li>Нейросетевой акустический классификатор клавиш устройств ввода</li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="container-fluid section-holder d-flex bg-dimmed">
 <div class="container-fluid anchor pb-5 skills-section">
 <h1 class=text-center>
 <span id=skills></span>Навыки</h1>
@@ -138,7 +237,7 @@ English
 <a class=skill-card-link href=https://golang.org/ title=Golang target=_blank rel=noopener>
 <div class=card>
 <div class="card-head d-flex">
-<img class=card-img-xs src=/images/sections/skills/golang_hubd306f5a3f0ae23f5e74b151be811621_70372_24x24_fit_box_3.png alt=Golang>
+<img class=card-img-xs src=/images/sections/skills/golang.png alt=Golang>
 <h5 class=card-title>Golang</h5>
 </div>
 <div class=card-body>
@@ -151,7 +250,7 @@ English
 <a class=skill-card-link href=https://www.python.org/ title=Python target=_blank rel=noopener>
 <div class=card>
 <div class="card-head d-flex">
-<img class=card-img-xs src=/images/sections/skills/python_hubedaf56ea9a8e304204e000381ff8dea_81814_24x24_fit_box_3.png alt=Python>
+<img class=card-img-xs src=/images/sections/skills/python.png alt=Python>
 <h5 class=card-title>Python</h5>
 </div>
 <div class=card-body>
@@ -164,7 +263,7 @@ English
 <a class=skill-card-link href=https://kotlinlang.org/ title=Kotlin target=_blank rel=noopener>
 <div class=card>
 <div class="card-head d-flex">
-<img class=card-img-xs src=/images/sections/skills/Kotlin_Icon_hua5d5ea11c409315eee4ecdddf25d6546_25907_24x24_fit_box_3.png alt=Kotlin>
+<img class=card-img-xs src=/images/sections/skills/Kotlin_Icon.png alt=Kotlin>
 <h5 class=card-title>Kotlin</h5>
 </div>
 <div class=card-body>
@@ -177,7 +276,7 @@ English
 <a class=skill-card-link href=https://unity.com/ title=Unity target=_blank rel=noopener>
 <div class=card>
 <div class="card-head d-flex">
-<img class=card-img-xs src=/images/sections/skills/unity-icon-5_hud3fa97b8356a79ab15139ee88b559df4_61909_24x24_fit_q75_box.jpg alt=Unity>
+<img class=card-img-xs src=/images/sections/skills/unity-icon-5.jpg alt=Unity>
 <h5 class=card-title>Unity</h5>
 </div>
 <div class=card-body>
@@ -190,7 +289,7 @@ English
 <a class=skill-card-link>
 <div class=card>
 <div class="card-head d-flex">
-<img class=card-img-xs src=/images/sections/skills/ml3_hu953550ffcdd6af2cea99fcfd7fb7df3e_11106_24x24_fit_box_3.png alt="Машинное обучение">
+<img class=card-img-xs src=/images/sections/skills/neural.png alt="Машинное обучение">
 <h5 class=card-title>Машинное обучение</h5>
 </div>
 <div class=card-body>
@@ -200,23 +299,10 @@ English
 </a>
 </div>
 <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-<a class=skill-card-link href=https://www.elastic.co/elastic-stack/ title="ELK Stack" target=_blank rel=noopener>
-<div class=card>
-<div class="card-head d-flex">
-<img class=card-img-xs src=/images/sections/skills/elastic.svg alt="ELK Stack">
-<h5 class=card-title>ELK Stack</h5>
-</div>
-<div class=card-body>
-<p class=card-text>Развертование, использование и администрирование ELK stack</p>
-</div>
-</div>
-</a>
-</div>
-<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
 <a class=skill-card-link href=https://www.docker.com/ title=Docker target=_blank rel=noopener>
 <div class=card>
 <div class="card-head d-flex">
-<img class=card-img-xs src=/images/sections/skills/docker_hu6637e67dcc578c068e85abb6df503a4f_7557_24x24_fit_box_3.png alt=Docker>
+<img class=card-img-xs src=/images/sections/skills/docker.png alt=Docker>
 <h5 class=card-title>Docker</h5>
 </div>
 <div class=card-body>
@@ -229,7 +315,7 @@ English
 <a class=skill-card-link href=https://git-scm.com/ title=Git target=_blank rel=noopener>
 <div class=card>
 <div class="card-head d-flex">
-<img class=card-img-xs src=/images/sections/skills/git_hu128d69c0d61aa850686d75427db95755_2383_24x24_fit_box_3.png alt=Git>
+<img class=card-img-xs src=/images/sections/skills/git.png alt=Git>
 <h5 class=card-title>Git</h5>
 </div>
 <div class=card-body>
@@ -242,7 +328,7 @@ English
 <a class=skill-card-link href=https://en.wikipedia.org/wiki/CI/CD title=CI/CD target=_blank rel=noopener>
 <div class=card>
 <div class="card-head d-flex">
-<img class=card-img-xs src=/images/sections/skills/cicd_huaa542367f695c44da51083044ee395c2_9469_24x24_fit_box_3.png alt=CI/CD>
+<img class=card-img-xs src=/images/sections/skills/proactive.png alt=CI/CD>
 <h5 class=card-title>CI/CD</h5>
 </div>
 <div class=card-body>
@@ -252,36 +338,10 @@ English
 </a>
 </div>
 <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-<a class=skill-card-link href=https://www.atlassian.com/ title=Jira target=_blank rel=noopener>
-<div class=card>
-<div class="card-head d-flex">
-<img class=card-img-xs src=/images/sections/skills/Jira_hu74fd6717fe7c452534120310f1149d51_3784_24x24_fit_box_3.png alt=Jira>
-<h5 class=card-title>Jira</h5>
-</div>
-<div class=card-body>
-<p class=card-text>Хорошо знаком с работой в Jira.</p>
-</div>
-</div>
-</a>
-</div>
-<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-<a class=skill-card-link href=https://en.wikipedia.org/wiki/OSI_model title=OSI/ISO target=_blank rel=noopener>
-<div class=card>
-<div class="card-head d-flex">
-<img class=card-img-xs src=/images/sections/skills/osi_hua4a9f35fe0cc751dd406d1a1bad26051_18963_24x24_fit_box_3.png alt=OSI/ISO>
-<h5 class=card-title>OSI/ISO</h5>
-</div>
-<div class=card-body>
-<p class=card-text>Глубоко осведомлен о принципах работы сети и сетевых протоколах благодаря образованию в университете.</p>
-</div>
-</div>
-</a>
-</div>
-<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
 <a class=skill-card-link href=https://www.wireshark.org/ title=Wireshark target=_blank rel=noopener>
 <div class=card>
 <div class="card-head d-flex">
-<img class=card-img-xs src=/images/sections/skills/wireshark_hu7864073a4804803a8a2246a3cc5a2e6c_22189_24x24_fit_box_3.png alt=Wireshark>
+<img class=card-img-xs src=/images/sections/skills/shark.png alt=Wireshark>
 <h5 class=card-title>Wireshark</h5>
 </div>
 <div class=card-body>
@@ -291,36 +351,10 @@ English
 </a>
 </div>
 <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-<a class=skill-card-link href=https://www.snort.org/ title=Snort target=_blank rel=noopener>
-<div class=card>
-<div class="card-head d-flex">
-<img class=card-img-xs src=/images/sections/skills/pig_hu167bbe407fbefedf4e1fef406c7b5a80_54132_24x24_fit_box_3.png alt=Snort>
-<h5 class=card-title>Snort</h5>
-</div>
-<div class=card-body>
-<p class=card-text>Умею создавать и изменять с правила Snort.</p>
-</div>
-</div>
-</a>
-</div>
-<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-<a class=skill-card-link href=https://www.intel.ru/content/www/ru/ru/products/programmable.html title=ПЛИС target=_blank rel=noopener>
-<div class=card>
-<div class="card-head d-flex">
-<img class=card-img-xs src=/images/sections/skills/fpga_hu5fcb881984acf3749d8476111422a8ae_161529_24x24_fit_box_3.png alt=ПЛИС>
-<h5 class=card-title>ПЛИС</h5>
-</div>
-<div class=card-body>
-<p class=card-text>Хорошо знаю аппаратную часть современных вычислительных систем. Имею опыт разработке на ПЛИС с использованием языка VHDL.</p>
-</div>
-</div>
-</a>
-</div>
-<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
 <a class=skill-card-link href=https://github.com/miromax42/gophers title=Дизайн target=_blank rel=noopener>
 <div class=card>
 <div class="card-head d-flex">
-<img class=card-img-xs src=/images/sections/skills/paint-palette_hua4781864f427475cabfefa5988581ae9_45483_24x24_fit_box_3.png alt=Дизайн>
+<img class=card-img-xs src=/images/sections/skills/paint-palette.png alt=Дизайн>
 <h5 class=card-title>Дизайн</h5>
 </div>
 <div class=card-body>
@@ -334,81 +368,6 @@ English
 </div>
 </div>
 <div class="container-fluid section-holder d-flex bg-white">
-<div class="container-fluid anchor pb-5 experiences-section">
-<h1 class=text-center>
-<span id=experiences></span>Опыт</h1>
-<div class="container timeline text-justify">
-<div class="row align-items-center d-flex">
-<div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-<div class="circle font-weight-bold">1</div>
-</div>
-<div class="col-10 col-lg-8">
-<div class=experience-entry-heading>
-<h5>Разработчик ПО</h5>
-<h6><a href=https://cert.gov.ru/index.html title=НКЦКИ target=_blank rel=noopener>НКЦКИ</a></h6>
-<p class=text-muted>Июнь 2021 - н.в.,
-Москва
-</p>
-</div>
-<p>Национальный координационный центр по компьютерным инцидентам (НКЦКИ) является составной частью сил, предназначенных для обнаружения, предупреждения и ликвидации последствий компьютерных атак и реагирования на компьютерные инциденты .</p>
-<h6 class=text-muted>
-Обязанности:
-</h6>
-<ul class=justify-content-around>
-<li>Разработка и поддержка Средства обнаружения вторжений</li>
-<li>Веду сертификации коммерческих продуктов</li>
-<li>Code Review других членов команды</li>
-<li>Много бумажной работы 😞</li>
-</ul>
-<h6 class=text-muted>
-Достижения:
-</h6>
-<ul class=justify-content-around>
-<li>Распределенная система обмена событиями для платформы The Hive.</li>
-<li>Несигнатурный метод обнаружения компьтерныx атак на основе анализа Netflow статистики</li>
-<li>Внедренние NATS в инфраструктуру</li>
-</ul>
-</div>
-</div>
-<div class="row horizontal-line">
-<div class="col-1 col-lg-2 timeline-side-div">
-<div class=corner></div>
-</div>
-<div class="col-10 col-lg-8">
-<hr>
-</div>
-<div class="col-1 col-lg-2 timeline-side-div">
-<div class=corner></div>
-</div>
-</div>
-<div class="row align-items-center justify-content-end d-flex">
-<div class="col-10 col-lg-8">
-<div class=experience-entry-heading>
-<h5>Студент</h5>
-<h6><a href=http://academy.fsb.ru/ title="Институт криптографии связи и информатики" target=_blank rel=noopener>Институт криптографии связи и информатики</a></h6>
-<p class=text-muted>Июнь 2016 - Июнь 2021,
-Moscow
-</p>
-</div>
-<p>Структурное подразделение Академии ФСБ России, ведущее подготовку специалистов в области передачи, защиты и обработки информации. ИКСИ является головным учебным заведением России по образованию в области информационной безопасности.</p>
-<ul class=justify-content-around>
-</ul>
-<h6 class=text-muted>
-Достижения:
-</h6>
-<ul class=justify-content-around>
-<li>Окончил с высокий средним баллом</li>
-<li>Результат дипломной работы получил практическое применение</li>
-</ul>
-</div>
-<div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-<div class="circle font-weight-bold">2</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="container-fluid section-holder d-flex bg-dimmed">
 <div class="container-fluid anchor pb-5 projects-section" id=projects>
 <h1 class=text-center>
 <span id=projects></span>Проекты</h1>
@@ -755,10 +714,13 @@ python
 <a class=smooth-scroll href=https://miromax42.github.io#about>Обо мне</a>
 </li>
 <li class=nav-item>
-<a class=smooth-scroll href=https://miromax42.github.io#skills>Навыки</a>
+<a class=smooth-scroll href=https://miromax42.github.io#experiences>Опыт</a>
 </li>
 <li class=nav-item>
-<a class=smooth-scroll href=https://miromax42.github.io#experiences>Опыт</a>
+<a class=smooth-scroll href=https://miromax42.github.io#education>Образование</a>
+</li>
+<li class=nav-item>
+<a class=smooth-scroll href=https://miromax42.github.io#skills>Навыки</a>
 </li>
 <li class=nav-item>
 <a class=smooth-scroll href=https://miromax42.github.io#projects>Проекты</a>
