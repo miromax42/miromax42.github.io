@@ -3,7 +3,7 @@ section:
   name: Навыки
   id: skills
   enable: true
-  weight: 2
+  weight: 4
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -32,7 +32,7 @@ skills:
   url: "https://unity.com/"
 
 - name: Машинное обучение
-  logo: images/sections/skills/ml3.png
+  logo: images/sections/skills/neural.png
   summary: "Знание теоретических основ и применение их на практике"
 
 - name: ELK Stack
@@ -51,22 +51,22 @@ skills:
   url: "https://git-scm.com/"
 
 - name: CI/CD
-  logo: images/sections/skills/cicd.png
+  logo: images/sections/skills/proactive.png
   summary: "Способен автоматизировать процесс тестирования, интеграции и разревертывания."
   url: "https://en.wikipedia.org/wiki/CI/CD"
 
 - name: Jira
-  logo: images/sections/skills/Jira.png
+  logo: images/sections/skills/jira.png
   summary: "Хорошо знаком с работой в Jira."
   url: "https://www.atlassian.com/"
 
 - name: OSI/ISO
-  logo: images/sections/skills/osi.png
+  logo: images/sections/skills/layers.png
   summary: "Глубоко осведомлен о принципах работы сети и сетевых протоколах благодаря образованию в университете."
   url: "https://en.wikipedia.org/wiki/OSI_model"
 
 - name: Wireshark
-  logo: images/sections/skills/wireshark.png
+  logo: images/sections/skills/shark.png
   summary: "Способен работать с сырым сетевым траффиком и анализировать его."
   url: "https://www.wireshark.org/"
 
@@ -76,7 +76,7 @@ skills:
   url: "https://www.snort.org/"
 
 - name: ПЛИС
-  logo: images/sections/skills/fpga.png
+  logo: images/sections/skills/chip.png
   summary: "Хорошо знаю аппаратную часть современных вычислительных систем. Имею опыт разработке на ПЛИС с использованием языка VHDL."
   url: "https://www.intel.ru/content/www/ru/ru/products/programmable.html"
 

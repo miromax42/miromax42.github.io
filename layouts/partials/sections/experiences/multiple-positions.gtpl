@@ -24,6 +24,20 @@
             <li>{{ . | markdownify }}</li>
         {{ end }}
         </ul>
+        <!-- Add the responsibilities handled at this position -->
+        {{ if $position.achievements }}
+        <h6 class="text-muted">
+        {{ i18n "achievements" }}
+        </h6>
+        {{end}}
+        
+        <ul class="justify-content-around">
+        {{ range $position.achievements }}
+            <li>{{ . | markdownify }}</li>
+        {{ end }}
+        </ul>
+
+        
     {{ end }}
     </div>
 </div>

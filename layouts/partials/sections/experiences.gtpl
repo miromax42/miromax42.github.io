@@ -15,6 +15,7 @@
   <div class="container timeline text-justify">
    {{ $totalExperiences:= len .experiences }}
    {{ range $index,$experience:= .experiences }}
+      
      {{ if eq (mod $index 2) 0 }}
        <div class="row align-items-center  d-flex">
          {{ partial "sections/experiences/vertical-line.gtpl" $index }}
@@ -22,8 +23,8 @@
        </div>
      {{else}}
        <div class="row align-items-center justify-content-end d-flex">
-         {{ partial "sections/experiences/experience-info.gtpl" $experience }}
          {{ partial "sections/experiences/vertical-line.gtpl" $index }}
+         {{ partial "sections/experiences/experience-info.gtpl" $experience }}
        </div>
      {{ end }}
      {{ if lt $index (sub $totalExperiences 1) }}
