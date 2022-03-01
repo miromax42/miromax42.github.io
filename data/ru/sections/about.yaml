@@ -11,8 +11,8 @@ section:
 designation: Разработчик
 # your company information
 company:
-  name: НКЦКИ
-  url: "https://cert.gov.ru/index.html"
+  name: [CENSORED]
+  url: "https://yandex.ru"
 
 # your resume. this file path should be relative to you "static" directory
 # resume: "files/resume.pdf"
