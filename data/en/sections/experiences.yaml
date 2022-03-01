@@ -11,11 +11,11 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: NCCCI
-    url: "https://cert.gov.ru/index.html"
+    name: [CENSORED]
+    url: "https://yandex.ru"
     location: Moscow
     # company overview
-    overview: International Computer Incident Response Company.
+    overview: Computer Incident Response Company.
   positions:
   - designation: Software Engineer
     start: June 2021
@@ -30,10 +30,10 @@ experiences:
     - Lots of paperwork 😞 
 
 - company:
-    name: Institute of Cryptography, Telecommunications and Computer Science
-    url: "http://academy.fsb.ru/"
+    name: [CENSORED]
+    url: "https://yandex.ru/"
     location: Moscow
-    overview: research institute within the Academy of the Federal Security Service of Russia, which trains specialists in areas such as the transfer, protection and processing of information.
+    overview: research institute within the [CENSORED], which trains specialists in areas such as the transfer, protection and processing of information.
   positions:
   - designation: Student
     start: June 2016

@@ -11,8 +11,8 @@ section:
 designation: Software Engineer
 # your company information
 company:
-  name: NCCCI
-  url: "https://cert.gov.ru/index.html"
+  name: [CENSORED]
+  url: "https://yandex.ru/"
 
 # your resume. this file path should be relative to you "static" directory
 # resume: "files/resume.pdf"
