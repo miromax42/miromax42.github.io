@@ -11,16 +11,24 @@ section:
 designation: Разработчик
 # your company information
 company:
-  name: [CENSORED]
-  url: "https://yandex.ru"
+  name: НКЦКИ
+  url: https://cert.gov.ru/en/
 
 # your resume. this file path should be relative to you "static" directory
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Я влюбленный в свое дело программист. За жизненный путь успел попробывать себя во многих IT-проявлениях, всегда открыт к новым знания и умениям. Изучать программирование начал с Java, позже перешёл на Python (ML), C# (Unity), Kotlin (Android), Golang. На последнем языке разрабатываю больше полугода. На работе в основном использую Golang для разработки, а также Python.'
+summary: |
+  Я влюбленный в свое дело программист. За жизненный путь успел попробывать себя во многих IT-проявлениях, всегда открыт к новым знания и умениям. Вел разработку на различных языках программирования:
 
-# your social links
+  * изучать программирование начал с `Java`
+  * разработал приложение с *20.000 установок* на `C#`
+  * позже перешёл на `Python` с целью применения алгоритмов ML
+  * в качетве хобби пишу под Android на `Kotlin`
+  * для профессиональной разработки использую `Golang`
+
+  Позиционирую себя как **`middle backend golang developer`**:blue_heart:
+  > *Я зарегистрирован как Индивидуальный Предприниматель и рассматриваю как предложения на работу с оплатой по ИП, так и конкретные заказы на оказание услуг.*
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Github

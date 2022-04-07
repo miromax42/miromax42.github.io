@@ -31,8 +31,8 @@ degrees:
   icon: fa-graduation-cap
   timeframe: 2016-2021
   institution:
-    name: [CENSORED]
-    url: "http://ya.ru/"
+    name: МГТУ им.Баумана
+    # url: "http://ya.ru/"
   grade: #(optional)
     scale: Средний балл
     achieved: 4.6

@@ -31,16 +31,22 @@ skills:
   summary: "Увенно владею игровым движком и предлагаемыми им инструментами. В качестве языка использую C#."
   url: "https://unity.com/"
 
-- name: Машинное обучение
-  logo: images/sections/skills/neural.png
-  summary: "Знание теоретических основ и применение их на практике"
-
 - name: ELK Stack
   logo: images/sections/skills/elastic.svg
-  summary: "Развертование, использование и администрирование ELK stack"
+  summary: "Развертование, использование и администрирование ELK stack. Уверенно работаю с нереляционными БД."
   url: "https://www.elastic.co/elastic-stack/"
 
-- name: Docker
+- name: Postgres
+  logo: images/sections/skills/postgresql.png
+  summary: "Имею хороший опыт работы с Postgres. Уверенно работаю с реляционными БД. Знаю SQL."
+  url: "https://www.postgresql.org/"
+
+- name: Kubernetes
+  logo: images/sections/skills/kubernetes.png
+  summary: "Хорошо знаком с k8s. Уверенное владение kubectl, helm. Есть опыт использования в CI."
+  url: "https://kubernetes.io/"
+
+- name: Kubernetes
   logo: images/sections/skills/docker.png
   summary: "Хорошо знаком с Docker. Активно использую его в работе. Умею созадвать multi-stage и multi-arch контейнеры."
   url: "https://www.docker.com/"
@@ -54,6 +60,10 @@ skills:
   logo: images/sections/skills/proactive.png
   summary: "Способен автоматизировать процесс тестирования, интеграции и разревертывания."
   url: "https://en.wikipedia.org/wiki/CI/CD"
+
+- name: Машинное обучение
+  logo: images/sections/skills/neural.png
+  summary: "Знание теоретических основ и применение их на практике"
 
 - name: Jira
   logo: images/sections/skills/jira.png

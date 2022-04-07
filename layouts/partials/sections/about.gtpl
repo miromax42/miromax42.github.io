@@ -7,7 +7,6 @@
 {{ if (index site.Data site.Language.Lang).author }}
   {{ $author = (index site.Data site.Language.Lang).author }}
 {{ end }}
-
 <div class="container anchor p-lg-5 about-section" id="{{ $sectionID }}">
   <div class="row pt-sm-2 pt-md-4 align-self-center">
     <!-- summary -->
@@ -23,7 +22,7 @@
       </h5>
       {{ end }}
       <p class="p-1 text-justify">
-        {{ .summary | markdownify }}
+        {{ .summary | markdownify | emojify }}
       </p>
       <div class="text-container">
         <ul class="social-link d-flex justify-content-center">
@@ -61,3 +60,9 @@
     </div>
   </div>
 </div>
+{{ if .Page.Store.Get "hasMermaid" }}
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+{{ end }}

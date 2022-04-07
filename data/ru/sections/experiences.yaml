@@ -12,12 +12,11 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: [CENSORED]
-    url: "https://yandex.ru/index.html"
+    name: НКЦКИ
+    url: "https://cert.gov.ru/"
     icon: fa-graduation-cap
     location: Москва
-    # company overview
-    # overview: [CENSORED], предназначенных для обнаружения, предупреждения и ликвидации последствий компьютерных атак и реагирования на компьютерные инциденты .
+    overview: Структура предназначенных для обнаружения, предупреждения и ликвидации последствий компьютерных атак и реагирования на компьютерные инциденты.
   positions:
   - designation: Специалист
     start: Июнь 2021
