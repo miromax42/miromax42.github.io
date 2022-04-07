@@ -46,7 +46,7 @@ skills:
   summary: "Хорошо знаком с k8s. Уверенное владение kubectl, helm. Есть опыт использования в CI."
   url: "https://kubernetes.io/"
 
-- name: Kubernetes
+- name: Docker
   logo: images/sections/skills/docker.png
   summary: "Хорошо знаком с Docker. Активно использую его в работе. Умею созадвать multi-stage и multi-arch контейнеры."
   url: "https://www.docker.com/"
