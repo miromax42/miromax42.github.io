@@ -26,6 +26,11 @@ skills:
   summary: "Язык для хобби проектов. Использую его для написания Android приложений."
   url: "https://kotlinlang.org/"
 
+- name: Слепая печать
+  logo: images/sections/skills/hidden.png
+  summary: "Пользуюсь слепой печатью при работе (клавиатура corne)."
+  url: "https://monkeytype.com/"
+
 - name: Unity
   logo: images/sections/skills/unity-icon-5.jpg
   summary: "Увенно владею игровым движком и предлагаемыми им инструментами. В качестве языка использую C#."
